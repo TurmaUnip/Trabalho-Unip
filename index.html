@@ -1,98 +1,286 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <title>Poder do Saber</title> 
-   <link href="style.css" rel="stylesheet" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-   <header>
-        <div class="center"> 
-        <div class="logo"><img src="assets/logo.png"/></div>
-        <div class="menu">
-        <label for="historia">História da Lei de Ohm</label>
-        <label for="primeira">1ª Lei de Ohm</label>
-        <label for="segunda">2ª Lei de Ohm</label>
-        <label for="atividades">Atividades</label>
-        </div> <!--menu-->
-        </div> <!--center-->
-   </header>
-   <section class="sobre">
-    <div class="extras">
-        <img src="assets/img1.png" alt="historia">
-        <div class="social-media">
-            <a href=""><img src="assets/facebook.png" /></a>
-            <a href=""><img src="assets/instagram.png" /></a>
-            <a href=""><img src="assets/twitter.png" /></a>
-        </div>
-    </div> <!--extra-->
-    <div class="center">
-    <input type="radio" name="tabs" id="historia" checked>
-    <div class="tab-content">
-        <h2>História da Lei de Ohm</h2>
-        <p> <br>Georg Simon Ohm foi um físico e matemático alemão, nascido em 16 de março de 1789, em Erlangen, na Alemanha. Ele é mais conhecido por formular a famosa Lei de Ohm, que descreve a relação entre corrente elétrica, tensão e resistência em um circuito elétrico. Sua contribuição é fundamental para o estudo da eletricidade e das leis que governam os circuitos elétricos. <br>
-            <br>
-            Ohm iniciou seus estudos na Universidade de Erlangen, mas devido a dificuldades financeiras, ele não conseguiu concluir sua formação acadêmica. Apesar disso, ele continuou a estudar por conta própria, especialmente nas áreas de matemática e física, e em 1827 publicou sua obra mais importante, Die galvanische Kette, mathematisch bearbeitet (A Corrente Galvânica, Estudada Matematicamente), onde ele introduziu a Lei de Ohm. <br>
-            <br>
-            A Lei de Ohm estabelece que a corrente elétrica (I) que passa através de um condutor é diretamente proporcional à tensão (V) aplicada e inversamente proporcional à resistência (R) do condutor. Sua fórmula é expressa como: <br>
-           <br> 
-            V = I * R <br>
-            <br>
-            Onde: <br>
-            <br>
-            V é a tensão (em volts), 
-            <br>
-            I é a corrente (em amperes), <br>
-            <br>
-            R é a resistência (em ohms). <br>
-            <br>
-            Embora Ohm tenha enfrentado críticas inicialmente por sua teoria, suas descobertas acabaram se consolidando e se tornando um pilar fundamental da teoria elétrica. Após a publicação da sua obra, Ohm recebeu reconhecimento internacional, e a unidade de resistência elétrica foi nomeada em sua homenagem: o ohm.<br>
-            <br>
-            Georg Simon Ohm morreu em 6 de julho de 1854, mas seu legado perdura como um dos grandes nomes da ciência e da eletricidade.<br></p>
-    </div>
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>
+        <title>Poder do Saber</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <style type="text/css" id="operaUserStyle"></style><style type="text/css"></style>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container"> 
+                <div class="logo"><img src="assets/logo.png"></div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <input type="radio" id="historia" name="tabs">
+                            <label for="historia-content">História da Lei de Ohm</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="primeira" name="tabs">
+                            <label for="primeira-content">1ª Lei de Ohm</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="segunda" name="tabs">
+                            <label for="segunda-content">2ª Lei de Ohm</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="atividades" name="tabs">
+                            <label for="atividades-content">Atividades</label>
+                        </li>
+                    </ul>
+                </div><!--menu-->
+            </div> <!--container-->
+        </header>
+        <section class="sobre">
+            <div class="extras">
+                <img src="assets//img1.png" alt="historia">
+                <div class="social-media">
+                    <a href="http://127.0.0.1:5500/index.html"><img src="./assets//facebook.png"></a>
+                    <a href="http://127.0.0.1:5500/index.html"><img src="./assets//instagram.png"></a>
+                    <a href="http://127.0.0.1:5500/index.html"><img src="./assets//twitter.png"></a>
+                </div>
+            </div> <!--extra-->
+            <div class="container">
+                <input type="radio" id="historia-content" name="tabs">
+                <div class="tab-content">
+                    <h2>História da Lei de Ohm</h2>
+                    <p><br>Georg Simon Ohm foi um físico e matemático alemão, nascido em 16 de março de 1789, em Erlangen, na Alemanha. Ele é mais conhecido por formular a famosa Lei de Ohm, que descreve a relação entre corrente elétrica, tensão e resistência em um circuito elétrico. Sua contribuição é fundamental para o estudo da eletricidade e das leis que governam os circuitos elétricos. <br>
+                        <br>
+                        Ohm iniciou seus estudos na Universidade de Erlangen, mas devido a dificuldades financeiras, ele não conseguiu concluir sua formação acadêmica. Apesar disso, ele continuou a estudar por conta própria, especialmente nas áreas de matemática e física, e em 1827 publicou sua obra mais importante, Die galvanische Kette, mathematisch bearbeitet (A Corrente Galvânica, Estudada Matematicamente), onde ele introduziu a Lei de Ohm. <br>
+                        <br>
+                        A Lei de Ohm estabelece que a corrente elétrica (I) que passa através de um condutor é diretamente proporcional à tensão (V) aplicada e inversamente proporcional à resistência (R) do condutor. Sua fórmula é expressa como: <br>
+                       <br> 
+                        V = I * R <br>
+                        <br>
+                        Onde: <br>
+                        <br>
+                        V é a tensão (em volts), <br>
+                        <br>
+                        I é a corrente (em amperes),<br> 
+                        <br>
+                        R é a resistência (em ohms). <br>
+                        <br>
+                        Embora Ohm tenha enfrentado críticas inicialmente por sua teoria, suas descobertas acabaram se consolidando e se tornando um pilar fundamental da teoria elétrica. Após a publicação da sua obra, Ohm recebeu reconhecimento internacional, e a unidade de resistência elétrica foi nomeada em sua homenagem: o ohm.<br>
+                        <br>
+                        Georg Simon Ohm morreu em 6 de julho de 1854, mas seu legado perdura como um dos grandes nomes da ciência e da eletricidade.<br></p>
+            </p>
+                </div>
+                
+                <input type="radio" id="primeira-content" name="tabs">
+                <div class="tab-content">
+                    <h2>Primeira Lei de Ohm</h2>
+                    <br>
+                    <p>A Primeira Lei de Ohm, formulada pelo físico alemão Georg Simon Ohm no século XIX, estabelece a relação fundamental entre a tensão elétrica, a corrente elétrica e a resistência em um circuito elétrico. Essa relação é expressa matematicamente pela equação: <br>
+                        <br>
+                        𝑉
+                        =
+                        𝑅
+                        ⋅
+                        𝐼
+                        <br><br>
+                        V=R⋅I <br>
+                        <br>
+                        Onde: <br>
+                        <br>
+                        V é a tensão elétrica (medida em volts, V), <br>
+                        <br>
+                        R é a resistência elétrica (medida em ohms, Ω),<br>
+                       <br>
+                        I é a corrente elétrica (medida em amperes, A). <br>
+                       <br>
+                        Essa lei afirma que, para um material condutor mantido a uma temperatura constante, a corrente elétrica que passa por ele é diretamente proporcional à tensão aplicada e inversamente proporcional à sua resistência. Isso significa que, se aumentarmos a tensão, a corrente também aumentará, desde que a resistência permaneça constante. Da mesma forma, se a resistência aumentar, a corrente diminuirá para a mesma tensão aplicada. <br>
+                        <br>
+                        Importância da Primeira Lei de Ohm <br>
+                        <br>
+                        A Primeira Lei de Ohm é essencial para a eletricidade e eletrônica, sendo aplicada em diversos contextos, como: <br>
+                        <br>
+                        Dimensionamento de circuitos elétricos,<br>
+                        <br>
+                        Fabricação de resistores e componentes elétricos,<br>
+                        <br>
+                        Entendimento do comportamento dos materiais condutores e isolantes.<br>
+                        <br>
+                        Ela é a base para o estudo de circuitos elétricos simples e complexos, ajudando engenheiros e técnicos a projetar sistemas elétricos eficientes.<br>
+                        <br>
+                        Exemplo Prático<br>
+                        <br>
+                        Se aplicarmos uma tensão de 12V a um resistor de 6Ω, podemos calcular a corrente usando a equação de Ohm:<br>
+                        <br>
+                        𝐼
+                        =
+                        𝑉
+                        𝑅
+                        =
+                        12
+                        𝑉
+                        6
+                        Ω
+                        =
+                        2
+                        𝐴
+                        I= 
+                        R
+                        V
+                        ​
+                         = 
+                        6Ω
+                        12V
+                        ​
+                        =2A
+                        
+                        Isso significa que uma corrente de 2 amperes fluirá pelo circuito.<br>
+                        <br>
+                        A Primeira Lei de Ohm é um dos conceitos fundamentais da eletricidade e serve como base para diversas aplicações tecnológicas.<br>
+                        <br>
+                        </p>
+                    <p><strong>V = R * I</strong></p>
+            </p>
+                </div>
+
+                <input type="radio" id="segunda-content" name="tabs">
+                <div class="tab-content">
+                    <h2>Segunda Lei de Ohm</h2>
+                    <p> <br>
+                        <p>A Segunda Lei de Ohm
+                            A Segunda Lei de Ohm amplia a compreensão da resistência elétrica ao relacioná-la com as propriedades físicas de um condutor. Ela estabelece que a resistência (R) de um material depende de seu comprimento (L), de sua área de secção transversal (A) e do material do qual é feito, expresso pela resistividade (ρ). A fórmula matemática que descreve essa relação é:<br>
+                            <br>
+                            𝑅
+                            =
+                            𝜌
+                            ⋅
+                            𝐿
+                            𝐴
+                            <br>
+                    
+                            ​
+                            <br>
+                            Onde:<br>
+                            <br>
+                            R é a resistência elétrica (medida em ohms, Ω),<br>
+                            <br>
+                            ρ é a resistividade do material (medida em ohm metro, Ω·m),<br>
+                            <br>
+                            L é o comprimento do condutor (medido em metros, m),<br>
+                            <br>
+                            A é a área da secção transversal do condutor (medida em metros quadrados, m²).<br>
+                            <br>
+                            Explicação da Segunda Lei de Ohm<br>
+                            <br>
+                            Essa lei mostra que a resistência elétrica de um fio ou condutor:<br>
+                            <br>
+                            Aumenta com o comprimento (L) do material, pois os elétrons precisam percorrer uma distância maior, enfrentando mais colisões.<br>
+                            <br>
+                            Diminui com o aumento da área da secção transversal (A), pois há mais espaço para os elétrons se moverem.<br>
+                            <br>
+                            Depende do tipo de material, pois cada substância tem uma resistividade específica (ρ) que indica sua oposição ao fluxo de corrente elétrica. Materiais como cobre e prata têm baixa resistividade, sendo excelentes condutores, enquanto borracha e plástico têm alta resistividade, sendo isolantes.<br>
+                            <br>
+                            Importância da Segunda Lei de Ohm<br>
+                            Essa lei é essencial para o dimensionamento de fios elétricos, pois permite calcular a resistência de condutores em instalações elétricas. Ela também é fundamental para a escolha de materiais na fabricação de componentes eletrônicos, como resistores e cabos de transmissão de energia.<br>
+                            <br>
+                            Exemplo Prático<br>
+                            <br>
+                            Se tivermos um fio de cobre com ρ = 1,7 × 10⁻⁸ Ω·m, comprimento L = 2 m e secção transversal A = 1 mm² = 1 × 10⁻⁶ m², a resistência será:<br>
+                            <br>
+                            𝑅
+                            =
+                            (
+                            1
+                            ,
+                            7
+                            ×
+                            10
+                            −
+                            8
+                            )
+                            ×
+                            2
+                            1
+                            ×
+                            10
+                            −
+                            6
+                            R= 
+                            1×10 
+                            −6
+                             
+                            (1,7×10 
+                            −8
+                             )×2
+                            ​
+                            <br><br>
+                            𝑅
+                            =
+                            0
+                            ,
+                            034
+                            Ω
+                            R=0,034Ω<br>
+                            <br>
+                            Isso significa que o fio apresentará uma resistência de 0,034 ohms, influenciando a corrente elétrica que pode passar por ele.<br>
+                            <br>
+                            A Segunda Lei de Ohm é fundamental para entender e projetar sistemas elétricos eficientes, garantindo segurança e economia no uso da eletricidade.</p> <br>
+                        <p><strong>R = ρ * (L / A)</strong></p>
+                </p>
+                </div>
+                
+                <input type="radio" id="atividades-content" name="tabs">
+                <div class="tab-content">
+                    <h2>Atividades</h2>
+                    <div class="question">
+                        <p>1. Qual a fórmula da Lei de Ohm?</p>
+                        <div class="options">
+                            <input type="radio" id="q1a1" name="q1" class="correct">
+                            <label for="q1a1">V = R * I</label>
+                            <input type="radio" id="q1a2" name="q1" class="incorrect">
+                            <label for="q1a2">P = V * I</label>
+                            <input type="radio" id="q1a3" name="q1" class="incorrect">
+                            <label for="q1a3">E = mc²</label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>2. Se a resistência for dobrada, o que acontece com a corrente?</p>
+                        <div class="options">
+                            <input type="radio" id="q2a1" name="q2" class="incorrect">
+                            <label for="q2a1">Dobra</label>
+                            <input type="radio" id="q2a2" name="q2" class="incorrect">
+                            <label for="q2a2">Fica igual</label>
+                            <input type="radio" id="q2a3" name="q2" class="correct">
+                            <label for="q2a3">Diminui pela metade</label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>3. Qual unidade é usada para medir a resistência elétrica?</p>
+                        <div class="options">
+                            <input type="radio" id="q3a1" name="q3" class="incorrect">
+                            <label for="q3a1">Ampère</label>
+                            <input type="radio" id="q3a2" name="q3" class="incorrect">
+                            <label for="q3a2">Volt</label>
+                            <input type="radio" id="q3a3" name="q3" class="correct">
+                            <label for="q3a3">Ohm</label>
+                        </div>
+                    </div>
+                    
+                    <div class="question">
+                        <p>4. Se a tensão for triplicada e a resistência permanecer a mesma, o que acontece com a corrente?</p>
+                        <div class="options">
+                            <input type="radio" id="q4a1" name="q4" class="incorrect">
+                            <label for="q4a1">Diminui pela metade</label>
+                            <input type="radio" id="q4a2" name="q4" class="correct">
+                            <label for="q4a2">Triplica</label>
+                            <input type="radio" id="q4a3" name="q4" class="incorrect">
+                            <label for="q4a3">Fica igual</label>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </body>
+                </html>
+                
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
     
-    <input type="radio" name="tabs" id="primeira">
-    <div class="tab-content">
-        <h2>Primeira Lei de Ohm</h2>
-        <p>A Primeira Lei de Ohm estabelece a relação entre tensão (V), corrente (I) e resistência (R) através da equação:</p>
-        <p><strong>V = R * I</strong></p>
-    </div>
-    
-    <input type="radio" name="tabs" id="segunda">
-    <div class="tab-content">
-        <h2>Segunda Lei de Ohm</h2>
-        <p>A Segunda Lei de Ohm explica que a resistência elétrica de um condutor depende de seu material, comprimento e área da seção transversal. A equação é:</p>
-        <p><strong>R = ρ * (L / A)</strong></p>
-    </div>
-    
-    <input type="radio" name="tabs" id="atividades">
-    <div class="tab-content">
-        <h2>Atividades</h2>
-        <p>Responda as questões de múltipla escolha:</p>
-        <form>
-            <p>1. Qual a fórmula da Lei de Ohm?</p>
-            <button type="button" class="incorrect">P = VI</button>
-            <button type="button" class="correct">V = R * I</button>
-            <button type="button" class="incorrect">E = mc²</button>
-            
-            <p>2. Se a resistência for dobrada, o que acontece com a corrente?</p>
-            <button type="button" class="incorrect">Dobra</button>
-            <button type="button" class="incorrect">Fica igual</button>
-            <button type="button" class="correct">Diminui pela metade</button>
-            
-            <p>3. Qual unidade é usada para medir a resistência elétrica?</p>
-            <button type="button" class="incorrect">Ampère</button>
-            <button type="button" class="incorrect">Volt</button>
-            <button type="button" class="correct">Ohm</button>
-            
-            <p>4. Se a tensão for triplicada e a resistência permanecer a mesma, o que acontece com a corrente?</p>
-            <button type="button" class="incorrect">Diminui pela metade</button>
-            <button type="button" class="correct">Triplica</button>
-            <button type="button" class="incorrect">Fica igual</button>
-            
-            <p>5. Qual desses materiais é um bom condutor elétrico?</p>
-            <button type="button" class="correct">Cobre</button>
-            <button type="button" class="incorrect">Borracha</button>
-            <button type="button" class="incorrect">Vidro</button>
-        </form>
-    </div>
-</body>
-</html>
