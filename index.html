@@ -4,36 +4,95 @@
    <title>Poder do Saber</title> 
    <link href="style.css" rel="stylesheet" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-</head>
-<body>
    <header>
         <div class="center"> 
-          <div class="logo"><img src="assets/logo.png"/></div>
-          <div class="menu">
-           <a href="#">Historia da Lei de Ohm</a>
-           <a href="#">Primeira Lei de Ohm</a>
-           <a href="#">Segunda Lei de Ohm</a>
-           <a href="#">Atividades</a>
-          </div> <!--menu-->
+        <div class="logo"><img src="assets/logo.png"/></div>
+        <div class="menu">
+        <label for="historia">História da Lei de Ohm</label>
+        <label for="primeira">1ª Lei de Ohm</label>
+        <label for="segunda">2ª Lei de Ohm</label>
+        <label for="atividades">Atividades</label>
+        </div> <!--menu-->
         </div> <!--center-->
    </header>
    <section class="sobre">
-       <div class="extras">
-           <div class="social-media">
-               <a href=""><img src="assets/facebook.png" /></a>
-               <a href=""><img src="assets/instagram.png" /></a>
-               <a href=""><img src="assets/twitter.png" /></a>
-           </div>
-       </div> <!--extra-->
-       <div class="center">
-           <div class="texto-sobre">
-               <h1>Lei de ohm</h1>
-               <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                   The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-               </p>
-           </div>
-       </div>
-   </section>
+    <div class="extras">
+        <img src="assets/img1.png" alt="historia">
+        <div class="social-media">
+            <a href=""><img src="assets/facebook.png" /></a>
+            <a href=""><img src="assets/instagram.png" /></a>
+            <a href=""><img src="assets/twitter.png" /></a>
+        </div>
+    </div> <!--extra-->
+    <div class="center">
+    <input type="radio" name="tabs" id="historia" checked>
+    <div class="tab-content">
+        <h2>História da Lei de Ohm</h2>
+        <p> <br>Georg Simon Ohm foi um físico e matemático alemão, nascido em 16 de março de 1789, em Erlangen, na Alemanha. Ele é mais conhecido por formular a famosa Lei de Ohm, que descreve a relação entre corrente elétrica, tensão e resistência em um circuito elétrico. Sua contribuição é fundamental para o estudo da eletricidade e das leis que governam os circuitos elétricos. <br>
+            <br>
+            Ohm iniciou seus estudos na Universidade de Erlangen, mas devido a dificuldades financeiras, ele não conseguiu concluir sua formação acadêmica. Apesar disso, ele continuou a estudar por conta própria, especialmente nas áreas de matemática e física, e em 1827 publicou sua obra mais importante, Die galvanische Kette, mathematisch bearbeitet (A Corrente Galvânica, Estudada Matematicamente), onde ele introduziu a Lei de Ohm. <br>
+            <br>
+            A Lei de Ohm estabelece que a corrente elétrica (I) que passa através de um condutor é diretamente proporcional à tensão (V) aplicada e inversamente proporcional à resistência (R) do condutor. Sua fórmula é expressa como: <br>
+           <br> 
+            V = I * R <br>
+            <br>
+            Onde: <br>
+            <br>
+            V é a tensão (em volts), 
+            <br>
+            I é a corrente (em amperes), <br>
+            <br>
+            R é a resistência (em ohms). <br>
+            <br>
+            Embora Ohm tenha enfrentado críticas inicialmente por sua teoria, suas descobertas acabaram se consolidando e se tornando um pilar fundamental da teoria elétrica. Após a publicação da sua obra, Ohm recebeu reconhecimento internacional, e a unidade de resistência elétrica foi nomeada em sua homenagem: o ohm.<br>
+            <br>
+            Georg Simon Ohm morreu em 6 de julho de 1854, mas seu legado perdura como um dos grandes nomes da ciência e da eletricidade.<br></p>
+    </div>
+    
+    <input type="radio" name="tabs" id="primeira">
+    <div class="tab-content">
+        <h2>Primeira Lei de Ohm</h2>
+        <p>A Primeira Lei de Ohm estabelece a relação entre tensão (V), corrente (I) e resistência (R) através da equação:</p>
+        <p><strong>V = R * I</strong></p>
+    </div>
+    
+    <input type="radio" name="tabs" id="segunda">
+    <div class="tab-content">
+        <h2>Segunda Lei de Ohm</h2>
+        <p>A Segunda Lei de Ohm explica que a resistência elétrica de um condutor depende de seu material, comprimento e área da seção transversal. A equação é:</p>
+        <p><strong>R = ρ * (L / A)</strong></p>
+    </div>
+    
+    <input type="radio" name="tabs" id="atividades">
+    <div class="tab-content">
+        <h2>Atividades</h2>
+        <p>Responda as questões de múltipla escolha:</p>
+        <form>
+            <p>1. Qual a fórmula da Lei de Ohm?</p>
+            <button type="button" class="incorrect">P = VI</button>
+            <button type="button" class="correct">V = R * I</button>
+            <button type="button" class="incorrect">E = mc²</button>
+            
+            <p>2. Se a resistência for dobrada, o que acontece com a corrente?</p>
+            <button type="button" class="incorrect">Dobra</button>
+            <button type="button" class="incorrect">Fica igual</button>
+            <button type="button" class="correct">Diminui pela metade</button>
+            
+            <p>3. Qual unidade é usada para medir a resistência elétrica?</p>
+            <button type="button" class="incorrect">Ampère</button>
+            <button type="button" class="incorrect">Volt</button>
+            <button type="button" class="correct">Ohm</button>
+            
+            <p>4. Se a tensão for triplicada e a resistência permanecer a mesma, o que acontece com a corrente?</p>
+            <button type="button" class="incorrect">Diminui pela metade</button>
+            <button type="button" class="correct">Triplica</button>
+            <button type="button" class="incorrect">Fica igual</button>
+            
+            <p>5. Qual desses materiais é um bom condutor elétrico?</p>
+            <button type="button" class="correct">Cobre</button>
+            <button type="button" class="incorrect">Borracha</button>
+            <button type="button" class="incorrect">Vidro</button>
+        </form>
+    </div>
 </body>
 </html>

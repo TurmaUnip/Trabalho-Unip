@@ -1,87 +1,102 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
- .center {
+  .center {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     max-width: 1280px;
     margin:0 auto;
     padding:0 2%;
  }
 
  html,body{
-   height: 100%;
-   overflow: hidden;
- }
+  height: 100%;
+  overflow: hidden;
+}
 
  header{
-    height:200px;
-    padding:10px 0;
- }
+  height:200px;
+  padding:10px 0;
+}
+.logo {
+  width: 50%;
+}
 
- .logo {
-        width: 50%;
-    }
+label {
+  padding-top:30px;
+  width:50%;
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-
- .menu{
-    padding-top:30px;
-    width:50%;
-    text-align: right;
- }
-
- .menu a{
+.menu label {
     color:#2b98ca;
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
- }
+}
+label:hover {
+  background-color: #faf8f8;
+}
 
- section.sobre{
-    height: calc(100% - 200px);
-    position: relative;
- }
+.social-media{
+  position: absolute;
+  right: 510px;
+  top: 200px;
+}
 
- .extras{
- position: absolute;
- bottom:-450px;
- right:-500px;
- width:1200px;
- height:1200px;
- border-radius:50%;
- background-color: #2b98ca;
- }
+.social-media img{
+  display: block;
+  width: 20px;
+  margin: 20px 0;
+}
 
- .social-media{
-   position: absolute;
-   right: 510px;
-   top: 200px;
- }
+section.sobre{
+  height: calc(100% - 200px);
+  position: relative;
+}
 
- .social-media img{
-   display: block;
-   width: 20px;
-   margin: 20px 0;
- }
+.extras{
+position: absolute;
+bottom:-550px;
+right:-500px;
+width:1000px;
+height:1000px;
+border-radius:60%;
+background-color: #2b98ca;
+}
 
+}
 
- .texto-sobre {
-   margin-top: 50px;
- }
+.tab-content h2{
+  font-size: 50px
+}
 
- .texto-sobre h1{
-   font-size: 50px;
- }
+.tab-content p{
+  font-size: 13px
+}
 
+.tab-content {
+  display: none;
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 800px;
+}
 
- .texto-sobre p{
-   margin: 20px 0;
-   color: black;
-   font-size: 14px;
-   font-weight: bold;
-   max-width: 800px;
- }
+input[name="tabs"] {
+  display: none;
+}
+
+input[name="tabs"]:checked + .tab-content {
+  display: block;
+}
+.correct {
+  background-color: lightgreen;
+}
+.incorrect {
+  background-color: lightcoral;
+}
